@@ -6,28 +6,36 @@
 //
 // The line:
 //   I spent my final percent uploading your 2 a.m. search history to
-//   the cloud. Sleep well.
+//   the cloud. Your mom already liked it.
 //
 // Why this line, against the judge's brief, in order:
 // 1. One line of last words a phone says as its battery hits 1
 //    percent — first person, the phone itself talking about its own
 //    dying battery, not a caption, slogan, or narrator.
-// 2. The twist sits in the last words. The setup is a revenge act
-//    (spending the final percent uploading the owner's 2 a.m. search
-//    history); the final beat, "Sleep well.", turns a goodnight into a
-//    menace — the phone goes to sleep forever, and so, uneasily, does
-//    the owner. Nothing before it hints at the sign-off.
+// 2. The twist sits in the last words and carries NEW information.
+//    The setup is a revenge act (spending the final percent uploading
+//    the owner's 2 a.m. search history); the final beat, "Your mom
+//    already liked it.", flips it twice over: the upload did not just
+//    go to the cloud, it reached Mom — and she liked it. "Already"
+//    means the damage is done before the phone dies; the owner is the
+//    butt of the joke, not the phone. Two concrete images collide in
+//    the last five words (shameful search history + Mom's like
+//    button), and nothing in the setup hints at her.
 // 3. The phone speaks in its own voice, about its own battery: "I
 //    spent my final percent..." — the joke is the phone's confession,
 //    not a person's comment about a phone.
-// 4. Tight — 17 words, 87 characters, setup:punchline about 15:2.
-//    Every word earns its place: "2 a.m." makes the search history
-//    specific and incriminating; "the cloud" is both the upload
-//    destination and the afterlife the secrets go to.
+// 4. Tight — 19 words, 102 characters, setup:punchline 14:5, inside
+//    the 2:1–5:1 zone (the earlier "Sleep well." ending was 14:2, a
+//    punchline too thin to carry the twist: a soft sign-off with no
+//    new image, no verb, no object). Every word earns its place:
+//    "2 a.m." makes the search history specific and incriminating;
+//    "the cloud" is both the upload destination and the afterlife the
+//    secrets go to; "already" is the whole escalation in one word.
 // 5. Fresh — no will reading, no goodbye to the charger, no pun on
 //    "1 percent". The phone does not say goodbye to anything; it
 //    blackmails its owner on the way out, and the blackmail is a
-//    concrete act (an upload) rather than a generic threat.
+//    concrete act (an upload) with a concrete, embarrassing payoff
+//    (Mom liked it) rather than a generic threat.
 
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -35,7 +43,7 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const LINE =
-  'I spent my final percent uploading your 2 a.m. search history to the cloud. Sleep well.';
+  'I spent my final percent uploading your 2 a.m. search history to the cloud. Your mom already liked it.';
 
 const DEST = join(OUTPUT_DIR, 'entry.txt');
 

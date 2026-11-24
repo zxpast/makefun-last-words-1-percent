@@ -10,16 +10,17 @@ A make.fun entry for the **Famous Last Words at 1 Percent** competition
 `main.ts` (Node 22, stdlib only) writes exactly one funny line to
 `/output/entry.txt` (`$MAKEFUN_OUTPUT_DIR/entry.txt` when set):
 
-> I spent my final percent uploading your 2 a.m. search history to the cloud. Sleep well.
+> I spent my final percent uploading your 2 a.m. search history to the cloud. Your mom already liked it.
 
-87 characters, 87 bytes, one sentence. The line is a fixed string,
+102 characters, 102 bytes, two sentences. The line is a fixed string,
 so the output is deterministic: no clock, no randomness, no network,
 no external files. A gate throws if the entry is not one line within
 1–199 characters, and the program reads the file back to prove the
 bytes on disk match the gated string.
 
 The pick: a dying phone spends its final percent uploading its
-owner's 2 a.m. search history to the cloud — then signs off with a
-menacing "Sleep well." The twist lands in the last two words, where
-a goodnight becomes a threat; the phone is the narrator, the
-blackmail is a concrete act, and nothing explains the joke.
+owner's 2 a.m. search history to the cloud — then lands the twist in
+the last five words: the upload reached Mom, and she already liked
+it. The phone is the narrator, the blackmail is a concrete act, the
+payoff is a second concrete image (Mom's like button) the setup never
+hints at, and nothing explains the joke.
